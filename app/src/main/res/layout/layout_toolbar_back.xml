@@ -12,7 +12,15 @@
         android:layout_centerVertical="true"
         android:layout_marginStart="16dp"
         android:background="@android:color/transparent"
-        android:src="@drawable/baseline_arrow_left" />
+        android:src="@drawable/back_button" />
+    <ImageButton
+        android:id="@+id/hamburger_menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="16dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/hamburger_menu" />
 
     <TextView
         android:id="@+id/text_screen_title"
